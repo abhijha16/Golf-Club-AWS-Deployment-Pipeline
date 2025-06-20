@@ -1,7 +1,7 @@
 ![Technologies](https://img.shields.io/badge/technologies-Html%20-green.svg)
 ![Technologies](https://img.shields.io/badge/technologies-CSS%20-green.svg)
 ![Technologies](https://img.shields.io/badge/technologies-Javascript%20-green.svg)
-![Technologies](https://img.shields.io/badge/technologies-Docker%20-green.svg)
+![Technologies](https://img.shields.io/badge/technologies-Docker%20-blue.svg)
 
 # Golf-Club-AWS-Deployment-Pipeline
 ## Overview
@@ -20,3 +20,30 @@ Whenever code is pushed to the main branch of this repository, a GitHub webhook 
 - Jenkins triggers a separate job called GOLF_CD which pulls the latest image and runs it on a live AWS EC2 instance.
 
 This results in seamless deployment with zero manual intervention.
+
+## 🧑‍💻 What I Built (DevOps Focus)
+I didn’t build the frontend, but I:
+- Created the complete Jenkins pipeline with multiple automated stages
+- Integrated SonarQube and Retire.js for quality and security checks
+- Wrote a Dockerfile using Nginx to containerize the static website
+- Connected Jenkins to Docker Hub for pushing production images
+- Deployed the app to an Ubuntu-based EC2 instance on AWS, exposing port 80
+- Connected GitHub via webhook to ensure automatic pipeline triggers on every push
+- Set up and triggered a secondary Jenkins deployment job GOLF_CD
+
+## ⚙️ Technologies Used
+- HTML, CSS, JavaScript – Static frontend
+- Jenkins (Declarative Pipeline) – Full CI/CD automation
+- SonarQube – Code quality analysis
+- Retire.js – JavaScript vulnerability scanning
+- Docker & Docker Hub – Containerization & image registry
+- Nginx – Web server to serve static files
+- AWS EC2 (Ubuntu) – Production server (port 80 exposed)
+- GitHub Webhooks – Auto-trigger CI/CD on push
+
+## 🧠 Why This Project Matters
+This project is a great example of how even a simple static website can be treated as a production-grade application using DevOps practices. It demonstrates the real-world application of tools like Jenkins, Docker, and AWS in building secure, automated, and scalable pipelines.
+
+Whether you're working with a monolith or a microservice, frontend or backend — automation is key, and this project proves it.
+
+## Screenshots
