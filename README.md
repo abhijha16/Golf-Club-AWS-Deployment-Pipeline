@@ -47,3 +47,13 @@ This project is a great example of how even a simple static website can be treat
 Whether you're working with a monolith or a microservice, frontend or backend — automation is key, and this project proves it.
 
 ## Screenshots
+![Example Image](screenshot/1.png) <br>
+![Example Image](screenshot/2.png) <br>
+![Example Image](screenshot/3.png) <br>
+![Example Image](screenshot/4.png) 
+
+## 🙋‍♂️ About Me
+Hi, I’m Abhishek Jha, a DevOps Engineer passionate about **automation**, **infrastructure**, and **cloud-native deployments**. I built this project to demonstrate my CI/CD skills, cloud experience, and ability to bring DevOps best practices even to static sites.
+
+GitHub: [abhijha16](https://github.com/abhijha16)
+Docker Hub: [abhishek365](https://hub.docker.com/u/abhishek365)
